@@ -23,11 +23,11 @@ Commercial account customers
 )
 ```
 
-SITUATION
+# SITUATION
 
 One of the main pain points was the lack of visibility into churners, who are customers who abandoned the service.
 
-TASK
+# TASK
 
 Based on this scenario, our project aimed to meet 3 main objectives:
 
@@ -53,7 +53,7 @@ transaction occurred at least 6 months ago
 
 Portanto, o projeto foi desenvolvido considerando churner como um usuário que tem conta há pelo menos 6 meses e que está há 6 meses ou mais sem fazer uma transação
 
-ACTIONS
+# ACTIONS
 
 ```mermaid
 ---
@@ -75,9 +75,9 @@ flowchart LR
     id1[(users)] ~~~ id2[(transactions)] ~~~ id3[(notifications)] ~~~ id4[(devices)]
 ```
 
-The flowchart above, known as ETL that means to extract, transform and load, representa as principais atividades executadas, sendo que precisamos dar bastante atenção à limpeza e análise dos dados. Optamos por fazer validação de hipóteses assim como análises estatísticas para tirar insights valiosos das nossas análises, buscando seguir a metodologia científica.
+The flowchart above, known as ETL that means to extract, transform and load, represents the main activities performed, and it was necessary to pay close attention to data cleaning and analysis. Hypothesis validation as well as statistical analyzes were carried out to derive valuable insights from these analysis, seeking to follow scientific methodology.
 
-RESULTS
+# RESULTS
 
 Levando em conta o recorte temporal do ano de 2018, há mais de 13 mil usuários ativos, sendo que desses 18,7% são churners.
 
@@ -108,10 +108,10 @@ Por fim, vimos que usuários com dispositivo Apple tendem a fazer mais churn. É
 O mês de março foi o mês de maior erros no envio de notificações e também o mês com o maior número de churn no período (332 usuários).
 O mês de outubro, em contrapartida, foi o mês com o maior número de notificações enviadas com sucesso e foi o mês com o segundo menor número de churn, com 191 usuários, atrás apenas do mês de fevereiro (172 usuários).
 
-CONSIDERAÇÕES FINAIS
-Com base nos insights extraídos e nas análises do negócio, gostaríamos de propor o desenvolvimento de planos de ação para atender esses 4 direcionadores:
+# INSIGHTS
+Proposal for developing action plans to meet these 4 drivers:
 
-Reter e engajar que os usuários invistam nas criptomoedas. Observamos que usuários que investem em criptomoedas tem uma taxa de churn menor do que aqueles que não investem. E olhando mais a fundo, dividindo esses usuários em faixa etária, observamos que quanto mais jovem menor o churn. Dessa forma a sugestão é não apenas ter um investimento maior nos investidores de cripto mas também focar nos usuários mais jovens;
-Oferecer mais benefícios e promoções para o plano gratuito, que possui um churn rate e quantidade de usuários muito maior em relação aos pagos, que tem uma representatividade bem menor de usuários;
-Encorajar usuários a terem mais contatos salvos no app por meio de promoções e notificações. Isso porque usuários com 1 ou nenhum contato têm, respectivamente, um churn de aproximadamente 23 e 33%, enquanto que usuários com 10 ou mais contatos tem um churn médio de 6.5%;
-Melhorar a experiência dos usuários nos aplicativos, especialmente no sistema iOS, que tem um percentual maior de churn comparado aos usuários que têm o sistema Android.
+1. Encourage users to invest in cryptocurrencies. It has been observed that users who invest in cryptocurrencies have a lower churn rate than the opposite. And looking deeper, dividing these users into age groups, the younger they are, the lower the churn. Therefore, the suggestion is not only to have a greater investment in crypto investors but also to focus on younger users.
+2. Offer more benefits and promotions for the free plan, which has a higher churn rate and number of users compared to the paid plan, which has a much smaller number of users.
+3. Encourage users to have more contacts saved in the app through promotions and notifications. This is because users with 1 or 0 contacts have, respectively, a churn of approximately 23 and 33%, while users with 10 or more contacts have an average churn of 6.5%.
+4. Improve performance and user experience on the mobile app, especially on the iOS system, which has a higher percentage of churn compared to Android users.
