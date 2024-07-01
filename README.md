@@ -57,8 +57,6 @@ transaction occurred at least 6 months ago
 )
 ```
 
-Portanto, o projeto foi desenvolvido considerando churner como um usuário que tem conta há pelo menos 6 meses e que está há 6 meses ou mais sem fazer uma transação
-
 <br><br><h1 align="center">ACTIONS</h1>
 
 ```mermaid
@@ -87,11 +85,11 @@ The flowchart above, known as ETL that means to extract, transform and load, rep
 
 ```mermaid
 flowchart LR
-    id1([13.683
+    id1([13683
 active users])
-    id2([2.547
+    id2([2547
 churners])
-    id3([18,68 %
+    id3([18.68 %
 avg churn rate])
 ```
 
