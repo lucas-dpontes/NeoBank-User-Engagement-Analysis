@@ -1,6 +1,6 @@
 # le-wagon-final-project
 
-This is a course completion project of a 400-hour training bootcamp in Data Analytics, at Le Wagon Programming School.
+This is a course completion project of a 400-hour training bootcamp in Data Analytics, at [Le Wagon Programming School](https://www.lewagon.com/).
 
 The streamed presentation can be accessed by [clicking here](https://www.youtube.com/live/yZtvrdxnJSU) **video in Portuguese*
 
@@ -101,52 +101,53 @@ avg churn rate])
 
 </div>
 
-Nós constatamos que há relação entre a idade e a taxa de churn, com a geração Baby Boomer (ou seja, aqueles que nasceram até 1965) e o início da geração X (nascidos entre 65 e 87) sendo os maiores churners
+A relationship was found between age and the churn rate, with the Baby Boomer generation and the beginning of Generation X being the biggest churners.
 
-E os Millennials (nascidos entre 88 e 96) com os menores valores. Apesar disso não ser compatível com o movimento global, isso pode ser explicado pelo recorte temporal utilizado e o fato dos Millenials e Gen Z terem uma tendência maior a fazer o que é chamado de churn e return, que é a evasão do produto e uma possível volta caso exista necessidade ou quando os benefícios voltam a ser vantajosos.
+The fact that Millennials have the lowest churn rate values ​​contradicts global trends, but this can be explained by the time frame used and the fact that Millennials and Gen Z have a greater tendency to do what is called **churn** and **return**, which is product evasion and a possible returns if there is a need or when the benefits become advantageous again.
 
 <br><p align="center"><img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/churner_age.png?raw=true"></p>
 <br>
 
 ## Crypto user
 
-<br>Fazendo uso dessa divisão em gerações, podemos ver o impacto do uso de criptomoedas para todas as idades. Quando um usuário habilita a possibilidade de investir em criptomoedas, isso reduz muito a possibilidade de se tornar churner,  tendo o maior impacto na geração Z, com a queda de 22,5% para 4,5%. A queda da taxa de churn é maior nos usuários mais novos, talvez pela facilidade com as novas tecnologias, mas o impacto é visível nos quatro grupos.
+<br>Segmenting by generation, the impact of using cryptocurrencies for all ages can be visualized. When a user activates the feature to invest in cryptocurrencies, this greatly reduces the possibility of becoming a churner, having the biggest impact on generation Z, dropping from 22.5% to 4.5%. The churn rate drop is greater among younger users, probably due to the ease with new technologies, but the impact is visible in all four groups.
 
 <br><p align="center"><img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/crypto_user.png"></p>
 <br>
 
 ## Plans
 
-<br>Outro ponto que chamou a nossa atenção foi que clientes do plano gratuito (STANDARD) possuem uma taxa de churn muito maior que dos planos pagos, que são o PREMIUM e o METAL. 
+<br>Another attention point was that free-plan users (*i.e.* STANDARD) have a much higher churn rate than paid ones (*i.e.* PREMIUM and METAL).
 
-O plano METAL, inclusive, teve uma taxa de churn de 0% e o plano PREMIUM de apenas 1,67%. Uma diferença enorme pro plano STANDARD com 20%.
+The METAL plan even has a churn rate of 0%, while the PREMIUM has just 1.67%. A huge difference when compared to STANDARD (20%).
 
 <br><p align="center"><img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/plan_user.png"></p>
 <br>
 
 ## Number of contacts
 
-<br>Também constatamos uma relação entre o número de contatos e a taxa de churn. Quanto mais conectado com outros usuários, menores são as chances de um cliente parar de utilizar o produto. 
+<br>A relationship was also found between the number of contacts and the churn rate. The greater the connection between users, the lower the chances of a customer stopping using the product.
 
-Um usuário com 0 contatos tem um churn rate de 32%, bem acima da média de referência de quase 19%, e esse número vai caindo quanto mais contatos um usuário possui.
+A user with 0 contacts has a churn rate of 32%, well above the benchmark average of ≈19%, and this number decreases the more contacts a user has.
 
 <br><p align="center"><img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/nb_contacts.png"></p><br>
 
-Isso também é constatado pela análise dos usuários por países, onde é possível ver que a taxa de churn costuma ser menor nos países com uma média de contatos por usuário maior. 
+In the graph below, segmented by country, the churn rate (dashed line) tends to be lower in countries with a higher average number of contacts per user.
 
-Aqui temos a nossa taxa média de churn e é possível ver como países com mais contatos por usuário estão consideravelmente abaixo desse número, com a Romênia com 9,4% e a Irlanda com 10,5%, por exemplo. 
+Countries with more contacts per user are considerably below this number. Ex: Romania with 9.4% and Ireland with 10.5%.
 
-Seguindo o gráfico, vemos que os clientes de países com mais de 20% de taxa de churn são os que menos têm contatos por usuário.
+Furthermore, customers from countries with more than a 20% churn rate have the fewest contacts per user.
 
 <br><p align="center"><img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/country_contacts.png"></p>
 <br>
 
 ## Devices
 
-<br>Por fim, vimos que usuários com dispositivo Apple tendem a fazer mais churn. É possível que exista uma relação com erros nos aplicativos, considerando que existiram alguns picos de falhas de envio de notificações para usuários ao longo dos meses.
+<br>Finally, Apple users tend to churn more. It is possible that there is a relationship with crashes in the app, considering that there have been peaks in failures in sending notifications over the months.
 
-O mês de março foi o mês de maior erros no envio de notificações e também o mês com o maior número de churn no período (332 usuários).
-O mês de outubro, em contrapartida, foi o mês com o maior número de notificações enviadas com sucesso e foi o mês com o segundo menor número de churn, com 191 usuários, atrás apenas do mês de fevereiro (172 usuários).
+March has the most errors when sending notifications and was also the month with the highest churners in the period (332 users).
+
+However, in October there were more notifications sent successfully and it was the 2nd month at lowest churners (191 users).
 
 ```mermaid
 flowchart LR
