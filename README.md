@@ -4,13 +4,20 @@ This is a course completion project of a 400-hour training bootcamp in Data Anal
 
 The streamed presentation can be accessed by [clicking here](https://www.youtube.com/live/yZtvrdxnJSU) **video in Portuguese*
 
+<p align="center"><img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/lewagon_logo.png" width="350">     <img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/revolut_logo.png" width="350"></p>
+
+Team Members:
+- Lucas Pontes *[profile](https://www.linkedin.com/in/lucasdpontes/)*
+- Clara Wolff *[profile](https://www.linkedin.com/in/clarawolff93/)*
+- Ynara Oliveira *[profile](https://www.linkedin.com/in/ynaraoliveira/)*
+
 Technologies and methods used:
 - Python libraries in Google Collaboratory
 - SQL in Google BigQuery
 - Data Visualization
 - Statistical tests - can be found in this repository **comments in Portuguese*
 
-This project aimed to study churners at Neo Bank (or Revolut), a digital bank that offers a range of services and financial products with the difference that customers do not need to worry about hidden fees.
+This project aimed to study churners at [Revolut](https://www.revolut.com/) (or Neo Bank) company, a digital bank that offers a range of services and financial products with the difference that customers do not need to worry about hidden fees.
 
 ```mermaid
 flowchart LR
