@@ -10,7 +10,7 @@ Technologies and methods used:
 - Data Visualization (Looker Studio)
 - Statistical tests (Chi-square)
 
-This project aimed to study churners at Neo Bank, a digital bank that offers a range of services and financial products with the difference that customers do not need to worry about hidden fees.
+This project aimed to study churners at Neo Bank (or Revolut), a digital bank that offers a range of services and financial products with the difference that customers do not need to worry about hidden fees.
 
 ```mermaid
 flowchart LR
@@ -79,7 +79,18 @@ The flowchart above, known as ETL that means to extract, transform and load, rep
 
 # RESULTS
 
-Levando em conta o recorte temporal do ano de 2018, há mais de 13 mil usuários ativos, sendo que desses 18,7% são churners.
+```mermaid
+flowchart LR
+    id1([13.683
+active users])
+    id2([2.547
+churners])
+    id3([18,68 %
+avg churn rate])
+
+```
+
+
 
 Nós constatamos que há relação entre a idade e a taxa de churn, com a geração Baby Boomer (ou seja, aqueles que nasceram até 1965) e o início da geração X (nascidos entre 65 e 87) sendo os maiores churners
 
@@ -111,7 +122,13 @@ O mês de outubro, em contrapartida, foi o mês com o maior número de notifica�
 # INSIGHTS
 Proposal for developing action plans to meet these 4 drivers:
 
+```mermaid
+flowchart LR
+    id1[[01. Crypto]] ~~~ id2[[02. Plans]]
+    id3[[03. Contacts]] ~~~ id4[[04. Improvement]]
+```
+
 1. Encourage users to invest in cryptocurrencies. It has been observed that users who invest in cryptocurrencies have a lower churn rate than the opposite. And looking deeper, dividing these users into age groups, the younger they are, the lower the churn. Therefore, the suggestion is not only to have a greater investment in crypto investors but also to focus on younger users.
 2. Offer more benefits and promotions for the free plan, which has a higher churn rate and number of users compared to the paid plan, which has a much smaller number of users.
-3. Encourage users to have more contacts saved in the app through promotions and notifications. This is because users with 1 or 0 contacts have, respectively, a churn of approximately 23 and 33%, while users with 10 or more contacts have an average churn of 6.5%.
+3. Encourage users to have more contacts saved in the app through promotions and notifications. This is because users with 1 or 0 contacts have, respectively, a churn of about 23% and 33%, while users with 10 or more contacts have an average churn of 6.5%.
 4. Improve performance and user experience on the mobile app, especially on the iOS system, which has a higher percentage of churn compared to Android users.
