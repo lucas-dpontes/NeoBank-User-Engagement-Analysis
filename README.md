@@ -46,7 +46,7 @@ Therefore, the project was developed considering a churner as a user who has had
 title: Churner
 ---
 flowchart LR
-    id1(Existing users for more than 6 months whose last
+    id1(A existing user for more than 6 months whose last
 transaction occurred at least 6 months ago
 )
 ```
