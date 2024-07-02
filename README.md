@@ -1,5 +1,7 @@
 # NeoBank User Engagement Analysis
 
+<p align="center"><img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/lewagon_logo.png" width="350">     <img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/revolut_logo.png" width="350"></p>
+
 This is a course completion project of a 400-hour training bootcamp in Data Analytics, at [Le Wagon Programming School](https://www.lewagon.com/).
 
 The streamed presentation can be accessed by [clicking here](https://www.youtube.com/live/yZtvrdxnJSU) **video in Portuguese*
@@ -7,8 +9,6 @@ The streamed presentation can be accessed by [clicking here](https://www.youtube
 [By clicking here](https://lookerstudio.google.com/reporting/d4a21ea3-ec5b-4260-b721-ccca1b5c5988/page/arg2D), a dashboad can be accessed.
 
 Mission: Unveil insights, provide shrewd business recommendations to abate churn rates, and illuminate pathways to heightened user involvement.
-
-<p align="center"><img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/lewagon_logo.png" width="350">     <img src="https://github.com/lucas-dpontes/le-wagon-final-project/blob/main/revolut_logo.png" width="350"></p>
 
 Team Members:
 - Lucas Pontes *[profile](https://www.linkedin.com/in/lucasdpontes/)*
