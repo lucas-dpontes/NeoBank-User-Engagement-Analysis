@@ -1,4 +1,4 @@
-# le-wagon-final-project
+# neobank-churn-analysis
 
 This is a course completion project of a 400-hour training bootcamp in Data Analytics, at [Le Wagon Programming School](https://www.lewagon.com/).
 
